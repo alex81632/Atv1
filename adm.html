@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/mobile.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <script src="https://kit.fontawesome.com/abf57d17b2.js" crossorigin="anonymous"></script>
+    <title>Farias Brito</title>
+</head>
+<body>
+    <nav id="main-nav" class="navbar">
+       <div class="container">
+            <a href="index.html" class="btn"><img src="img/fb_logo.png" alt="logo" class="logo"></a>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+            <ul>
+                <li><a href="index.html" class="btn">Alunos</a></li>
+                <li><a href="professores.html" class="btn">Professores</a></li>
+                <li><a href="adm.html" class="ativo">Administração</a></li>
+                <li><a href="externo.html" class="btn">Externo</a></li>
+            </ul>
+       </div>
+    </nav>
+
+    <section id="contato">
+        <div class="containeradm">
+            <div class="form">
+                <h2>Administração</h2>
+                <form name="contact" method="POST" data-netlify="true">
+                    <label for="first-name">Turma</label>
+                    <input type="text" name="turma" id="first-name" placeholder="Turma"/>
+                    
+                    <label for="professor">Professor Responsável</label>
+                    <select name="professor" id="professor">
+                        <option value="prof1">Professor 1</option>
+                        <option value="prof2">Professor 2</option>
+                        <!-- Adicione mais opções de professores aqui -->
+                    </select>
+                    
+                    <label for="horario">Horário da Turma</label>
+                    <input type="text" name="horario" id="horario" placeholder="Horário da Turma"/>
+                    
+                    <label for="sala">Sala de Aula</label>
+                    <input type="text" name="sala" id="sala" placeholder="Sala de Aula"/>
+                    
+                    <label for="disciplinas">Disciplinas</label>
+                    <input type="text" name="disciplinas" id="disciplinas" placeholder="Disciplinas"/>
+                    
+                    <label for="capacidade">Capacidade da Turma</label>
+                    <input type="number" name="capacidade" id="capacidade" placeholder="Capacidade da Turma"/>
+                    
+                    <button type="submit" class="btn-enviar">Salvar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <p> Farias Brito 2023</p>
+    </footer>
+
+</body>
+</html>

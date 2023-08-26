@@ -1,0 +1,129 @@
+/* Navbar */
+#main-nav .container{
+    display: flex;
+    flex-direction: column;
+    min-height: 180px;
+    justify-content: center;
+    align-items: center;
+}
+#main-nav .container .social{
+    padding: 1rem 0;
+}
+#main-nav .logo{
+    width: 100px;
+}
+#main-nav ul{
+    justify-self: center;
+}
+#main-nav ul li a{
+    font-size: 0.8rem;
+}
+
+/* Header */
+#home{
+    height: 20vh;
+}
+#home .container h1{
+    font-size: 5rem;
+}
+
+/* externo */
+#externo{
+    padding: 2rem 0;
+}
+#externo .container h1{
+    font-size: 3rem;
+}
+.card{
+    flex-direction: column;
+}
+.card .info{
+    width: 100%;
+}
+.card .info h2{
+    font-size: 2rem;
+}
+.card .info h3{
+    font-size: 1.5rem;
+}
+.card.left {
+    display: none;
+}
+.card .info p{
+    text-align: justify;
+    color: var(--corFundos);
+}
+.card .imagem{
+    width: 100%;
+}
+
+/* Sobre */
+
+#sobre{
+    padding: 2rem 0;
+}
+#sobre .container{
+    max-width: var(--larguraMaxima);
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+#sobre .container > img{
+    width: 80vw;
+}
+#sobre .container h1{
+    font-size: 3rem;
+}
+
+/* Contato */
+aside{
+    display: none;
+}
+
+#contato{
+    padding: 2rem 0;
+}
+#contato .container{
+    max-width: var(--larguraMaxima);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+#contato .info{
+    width: 50%;
+    padding: 1rem;
+    height: 100%;
+}
+#contato .form h2{
+    font-size: 2rem;
+}
+#contato .form p{
+    font-size: 1rem;
+    color: var(--corPrimaria);
+}
+
+/* alunos */
+#alunos .container{
+    max-width: 90vw;
+}
+#alunos .content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem 0;
+}
+
+/* professores */
+#Professores .container{
+    max-width: var(--larguraMaxima);
+    height: fit-content;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+#Professores .container .bloco{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
